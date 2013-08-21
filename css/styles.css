@@ -1,3 +1,110 @@
+@import 'normalize.css';
+
 body{
-	background-color: #000;
+	background-color: #eee;
 }
+
+.wrapper {
+	background-color: red;
+	width: 960;
+	margin: 0 auto;
+	position: relative;
+}
+
+.next, .previous {
+	width: 80px;
+	height: 80px;
+	display: block;
+	cursor: pointer;
+	background-color: rgba(255,255,255,.5);
+	position: absolute;
+	z-index: 100;
+	top: 190px;
+}
+
+.next {
+	left: 890;
+}
+
+.next:hover, .previous:hover {
+	background-color: rgba(255,0,255,5);
+
+}
+
+.gallery_wrapper {
+	margin: 0 auto;
+	width: 960px;
+	height: 440px;
+	background-color: #fff;
+}
+
+/* sets position of this div and child elements */
+.image_wrapper {
+	width: 960px;
+	height: 440px;	
+	position: relative;
+	background-color: #fff;
+	padding: 5px;
+}
+
+.image_wrapper .slide {
+	position: absolute;
+	margin: 5px;
+	top: 0;
+	left: 0;
+}
+
+.pagination {
+	width: 960;
+	float: right;
+	background-color: orange;
+}
+
+.pagination ul {
+	list-style: none;
+}
+
+.pagination ul .thumb {
+	display: block;
+	width: 10px;
+	height: 10px;
+	background-color: green;
+	float: left;
+	margin-right: 5px;
+}
+
+.pagination ul .thumb.active {
+	background-color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
